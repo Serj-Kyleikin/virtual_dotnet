@@ -27,8 +27,7 @@
 
 set -e
 
-VERSION="7.0.103-alpine3.16-arm64v8"
-IMAGE="mcr.microsoft.com/dotnet/sdk:$VERSION"
+IMAGE="mcr.microsoft.com/dotnet/sdk:7.0-alpine3.17-arm32v7"
 
 # Setup options for connecting to docker host
 if [ -z "$DOCKER_HOST" ]; then
