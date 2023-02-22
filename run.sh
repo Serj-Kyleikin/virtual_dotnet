@@ -27,7 +27,7 @@
 
 set -e
 
-IMAGE="mcr.microsoft.com/dotnet/sdk:7.0-alpine3.17-arm32v7"
+IMAGE="mcr.microsoft.com/dotnet/sdk:7.0-alpine3.16-amd64"
 
 # Setup options for connecting to docker host
 if [ -z "$DOCKER_HOST" ]; then
